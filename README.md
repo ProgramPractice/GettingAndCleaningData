@@ -28,5 +28,5 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Dependencies
 
-The required packages are data.table and reshape2. the run_analysis.R file will install the packages if not installed already.
+The required packages are data.table and reshape2.
 
