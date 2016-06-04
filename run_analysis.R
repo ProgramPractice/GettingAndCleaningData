@@ -51,7 +51,7 @@ meltdata      = melt(data, id = idlabels, measure.vars = datalabels)
 # Apply mean function to the dataset
 tidydata   = dcast(meltdata, subject + ActivityLabel ~ variable, mean)
 
-# output using write.tab;e
+# output using write.table
 write.table(tidy_data, file = "./tidy_data.txt", row.names=FALSE)
 
 ## The tidy data output in CSV format
